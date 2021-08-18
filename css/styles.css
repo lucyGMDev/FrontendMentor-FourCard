@@ -65,22 +65,23 @@ body{
 
 .card-top{
   border-top: 5px solid hsl(0, 78%, 62%);
-  left: 460px;
+  left: 475px;
 
 }
 .card-left{
   border-top: 5px solid hsl(180, 62%, 55%);
   top:350px;    
+  left: 75px;
 }
 .card-right{
   border-top: 5px solid hsl(212, 86%, 64%);
-  right:0px;
+  right:75px;
   top:350px;
 }
 .card-bottom{
   border-top: 5px solid hsl(34, 97%, 64%);
-  left: 460px;
-  top: 550px;
+  left: 475px;
+  top: 500px;
 }
 
 .card__header{
