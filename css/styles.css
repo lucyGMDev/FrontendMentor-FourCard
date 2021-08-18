@@ -53,31 +53,32 @@ body{
 
 .card{
   position: absolute;
-  width: 400px;
+  width: 350px;
   height: 250px;
   border-radius: 20px;
   border: 1px solid hsl(240 25% 50% / 0.2);
   margin: 20px;
   padding: 30px;
   padding-top: 0px;
+  box-shadow: 10px 10px 7px hsl(240 25% 50% / 0.2)
 }
 
 .card-top{
-  box-shadow: 10px 10px 7px hsl(240 25% 50% / 0.2), 0px -5px 0px hsl(0, 78%, 62%);
+  border-top: 5px solid hsl(0, 78%, 62%);
   left: 460px;
 
 }
 .card-left{
-  box-shadow: 10px 10px 7px hsl(240 25% 50% / 0.2), 0px -5px 0px hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(180, 62%, 55%);
   top:350px;    
 }
 .card-right{
-  box-shadow: 10px 10px 7px hsl(240 25% 50% / 0.2), 0px -5px 0px hsl(212, 86%, 64%);
+  border-top: 5px solid hsl(212, 86%, 64%);
   right:0px;
   top:350px;
 }
 .card-bottom{
-  box-shadow: 10px 10px 7px hsl(240 25% 50% / 0.2), 0px -5px 0px hsl(34, 97%, 64%);
+  border-top: 5px solid hsl(34, 97%, 64%);
   left: 460px;
   top: 550px;
 }
